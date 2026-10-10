@@ -1,32 +1,39 @@
-# React + TypeScript + Vite
+# 🎹 Voice Pitch Tracker & Grand Piano
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive web app that detects the pitch of your voice in real time, displays the note on a musical staff, and lets you play a virtual piano with your keyboard or mouse — all at the same time.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tone.js](https://img.shields.io/badge/Tone.js-14-orange) ![Vite](https://img.shields.io/badge/Vite-5-purple)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎤 **Voice pitch detection** — sing a note and see it appear on a musical staff (bass and treble clefs).
+- 🎹 **Virtual piano** — play with your mouse or computer keyboard (DAW-style layout).
+- 🔀 **Simultaneous display** — sing one note and play another; both appear on the staff and light up on the keys.
+- 🎼 **English & Russian note names** — see `C4` and `До4` side by side.
+- 🔊 **Realistic sound** — Salamander grand piano samples.
+- 📊 **Frequency readout** — current detected frequency in Hz.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Quick Start
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### Requirements
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- **Node.js** 18+ and npm (or pnpm / yarn)
+- A modern browser: **Chrome**, **Edge**, **Firefox**, or **Safari**
+- A microphone (for voice pitch detection)
+
+### Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/voice-pitch-tracker.git
+cd voice-pitch-tracker
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the dev server
+npm run dev
