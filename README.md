@@ -2,6 +2,8 @@
 
 An interactive web app that detects the pitch of your voice in real time, displays the note on a musical staff, and lets you play a virtual piano with your keyboard or mouse — all at the same time.
 
+### 🔗 **[Live Demo →](https://pitchfinder-phi.vercel.app/)**
+
 ![React](https://img.shields.io/badge/React-18-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tone.js](https://img.shields.io/badge/Tone.js-14-orange) ![Vite](https://img.shields.io/badge/Vite-5-purple)
 
 ---
@@ -17,7 +19,17 @@ An interactive web app that detects the pitch of your voice in real time, displa
 
 ---
 
-## 🚀 Quick Start
+## 🚀 Try It Now
+
+👉 **[https://pitchfinder-phi.vercel.app/](https://pitchfinder-phi.vercel.app/)**
+
+Just open the link, click **"Включить микрофон"** (Enable Microphone), allow mic access, and start singing. You can also play the piano right away with your keyboard — no installation needed.
+
+> ⚠️ The app requires **HTTPS** for microphone access — the Vercel demo already provides that.
+
+---
+
+## 🚀 Quick Start (Local Development)
 
 ### Requirements
 
